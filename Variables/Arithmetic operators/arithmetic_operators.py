@@ -1,17 +1,17 @@
 init_number = 9.0        # Float number
 
-division_result = # divide the init_number by 2
-
-division_remainder = # get the remainder of the division of the init_number by 2
-
-multiplication_result = # multiply the division_result by 2
-
-addition_result = # add the division_remainder to the multiplication_result
-
-subtraction_result = # subtract the multiplication_result from the init_number
-
-floor_result = # perform a floor division of init_number by 2
-
-power_result = # raise the multiplication_result to the power of 3
-
+division_result = init_number / 2
+print(division_result)
+division_remainder = init_number % 2
+print(division_remainder)
+multiplication_result = division_result * 2
+print(multiplication_result)
+addition_result = division_remainder + multiplication_result
+print(addition_result)
+subtraction_result = multiplication_result - init_number
+print(subtraction_result)
+floor_result = init_number // 2
+print(floor_result)
+power_result = multiplication_result ** 3
+print(power_result)
 print("result = " + str(subtraction_result))
