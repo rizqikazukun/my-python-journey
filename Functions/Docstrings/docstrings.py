@@ -1,5 +1,7 @@
-def increment_list(mylist):
+def increment_list(mylist: list) -> list:
     # TODO: add a docstring here
+    """This function adds 1 to each element of the list."""
+
 
     for i in range(len(mylist)):
         mylist[i] += 1
